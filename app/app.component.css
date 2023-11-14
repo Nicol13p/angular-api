@@ -1,0 +1,152 @@
+  /* Estilos para la barra de navegación */
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc6f5;
+    text-align: center;
+}
+
+ul.navbar li {
+    display: inline;
+}
+
+ul.navbar li a {
+    width: 10%;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambiar el color del enlace al pasar el cursor sobre él */
+ul.navbar li a:hover {
+    background-color: #e4b0ff;
+}
+
+/* Estilos CSS para el menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebc7ff;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block; /* Muestra los elementos uno debajo del otro */
+    padding: 10px 15px;
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.DJ {
+    background-color: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.Container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+    text-align: center;
+}
+.Container li{
+    display: inline;
+}
+.Container li a {
+    width: 10%;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.Container li a:hover {
+    background-color:#e4b0ff;
+}
+
+
+.Container1{
+    display: flex;
+    border-radius: 8px;
+}
+
+.img{
+    padding: 5px;
+}
+.img1{
+    padding: 16px;
+}
+.img2{
+    padding: 16px;
+}
+.img3{
+    padding: 16px;
+}
+
+.Txt1{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/* Estilos de la tarjeta */
+.card {
+    background-color: white;
+    width: 400px;
+    margin: 10px;
+    padding: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Estilos para el título de la tarjeta */
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.card-content {
+    font-size: 26px;
+}
+
+/* Estilos para la imagen de la tarjeta */
+.card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedor {
+    position: relative;
+    width: 300px; /* Cambia el tamaño del contenedor según tus necesidades */
+    height: 100%; /* Cambia el tamaño del contenedor según tus necesidades */
+    padding: 50px;
+    display: flex;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.contenedor:hover .imagen {
+    transform: scale(1.2); /* Escala la imagen al 120% en el hover */
+}
